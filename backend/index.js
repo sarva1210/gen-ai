@@ -32,6 +32,7 @@ const agent = createAgent({
     model,
     tools: [ emailTool ]
 })
+
 const messages = []
 
 while (true) {
