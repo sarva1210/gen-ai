@@ -32,6 +32,8 @@ export async function sendEmail({
     };
 
     const details = await transporter.sendMail(mailOptions);
+
     console.log("Email sent:", details);
+    
     return "email sent successfully, to " + to;
 }
