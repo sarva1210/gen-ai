@@ -40,7 +40,6 @@ const messages = []
 
 while (true) {
     const userInput = await rl.question("\x1b[32mYou:\x1b[0m ")
-
     messages.push(new HumanMessage(userInput))
 
     const response = await agent.invoke({
