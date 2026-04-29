@@ -25,6 +25,7 @@ const rl = readline.createInterface({
     output: process.stdout,
 });
 
+
 const model = new ChatMistralAI({
     model: "mistral-small-latest",
 })
