@@ -30,6 +30,7 @@ const model = new ChatMistralAI({
     model: "mistral-small-latest",
 })
 
+
 const agent = createAgent({
     model,
     tools: [ emailTool ]
